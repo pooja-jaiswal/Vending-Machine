@@ -1,0 +1,57 @@
+Project executable(s) of the Vending Machine components 
+
+1. Install Maven. Please follow below link to install Maven
+	https://maven.apache.org/install.html
+2. Open terminal/command prompt and go to the project folder (/vending-machine/code) where the pom.xml file is located.
+3. Run below command:
+	"mvn clean install"
+4. A target folder will be created (in "/vending-machine/code" folder). Go into target folder. 
+5. Inside the target folder, you will find "vending-machine.exe" and "vending-machine-1.0.jar" file.
+6. Double click "vending-machine.exe" file to launch the application or run below command in terminal/command prompt to launch the application.
+	"java -jar vending-machine-1.0.jar"
+
+
+Follow the below instructions to run the vending machine and Enjoy your Tea/Coffee
+
+Select any Vending Machine
+1. Vending Machine1
+2. Vending Machine2
+1
+Vending Machine1 
+MENU of Operations: 
+-------------------------
+(0) create
+(1) insertCups 
+(2) coin 
+(3) card 
+(4) sugar 
+(5) chocolate 
+(6) tea
+(7) Cancel 
+(8) setPrice 
+(q) quit
+-------------------------
+
+Select operation:(0) create (1) insertCups (2) coin (3) card (4) sugar (5) chocolate (6) tea (7) Cancel (8) setPrice (q) quit
+
+
+Select any Vending Machine
+1. Vending Machine1
+2. Vending Machine2
+2
+Vending Machine2
+Vending Machine2 
+MENU of Operations: 
+-------------------------
+(0) CREATE
+(1) insertCups 
+(2) COIN 
+(3) SUGAR 
+(4) CREAM 
+(5) COFFEE
+(6) CANCEL 
+(7) setPrice 
+(q) quit
+-------------------------
+
+Select operation:(0) CREATE (1) insertcups (2) COIN (3) SUGAR (4) CREAM (5) COFFEE (6) Cancel (7) setPrice (q) quit
